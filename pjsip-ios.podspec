@@ -29,22 +29,29 @@ Pod::Spec.new do |s|
   
   # s.libraries = 'g7221codec-arm-apple-darwin9', 'gsmcodec-arm-apple-darwin9', 'ilbccodec-arm-apple-darwin9', 'pj-arm-apple-darwin9', 'pjlib-util-arm-apple-darwin9', 'pjmedia-arm-apple-darwin9', 'pjmedia-audiodev-arm-apple-darwin9', 'pjmedia-codec-arm-apple-darwin9', 'pjmedia-videodev-arm-apple-darwin9', 'pjnath-arm-apple-darwin9', 'pjsip-arm-apple-darwin9', 'pjsip-simple-arm-apple-darwin9', 'pjsip-ua-arm-apple-darwin9', 'pjsua-arm-apple-darwin9', 'pjsua2-arm-apple-darwin9', 'resample-arm-apple-darwin9', 'speex-arm-apple-darwin9', 'srtp-arm-apple-darwin9'
 
-  # s.frameworks = 'CFNetwork', 'AudioToolbox', 'AVFoundation'
 
-  # s.header_mappings_dir = 'Pod'
+    s.frameworks = 'CFNetwork'
+    s.public_header_files = 'Pod/pjlib/include/*'
+    s.vendored_libraries = 'Pod/pjlib/lib/*.a' # the libraries for this component
+    s.dependency 'pjsip-ios/pjlibpj'
+    s.dependency 'pjsip-ios/pjlibpjplusplus'
 
-  s.subspec 'pjlib' do |pjlib|
+    s.subspec 'pjlibpj' do |sss|
+        
+      sss.header_dir = 'pj'
+      sss.public_header_files = 'Pod/pjlib/include/pj/*'
+      sss.dependency 'pjsip-ios/pjlibpj/pjlibpjcompat'
 
-    pjlib.header_dir = 'pjlib'
-    pjlib.frameworks = 'CFNetwork'
-    pjlib.public_header_files = 'Pod/pjlib/include/*{h, hpp}'
-    pjlib.vendored_libraries = 'Pod/pjlib/lib/*.a' # the libraries for this component
-
-      pjlib.subspec 'pjlibpj' do |pjlibpj|
-        pjlibpj.header_dir = 'pjlib/pj'
-        pjlibpj.public_header_files = 'Pod/pjlib/include/pj/**/*{h, hpp}'
+      sss.subspec 'pjlibpjcompat' do |ssss|
+        ssss.header_dir = 'pj/compat'
+        ssss.public_header_files = 'Pod/pjlib/include/pj/compat/*'
       end
-  end
+    end
+
+    s.subspec 'pjlibpjplusplus' do |sss|
+      sss.header_dir = 'pj++'
+      sss.public_header_files = 'Pod/pjlib/include/pj++/*'
+    end
 
   # s.subspec 'pjlib' do |sub|
   #   sub.public_header_files = 'build/pjproject-2.3/pjlib/include/**'
