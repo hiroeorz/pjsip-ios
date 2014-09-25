@@ -7,7 +7,7 @@
 //
 
 #import "PMAppDelegate.h"
-#import <pjsua.h>
+#import <pjsip-ios/pjsip/pjsua.h>
 
 @implementation PMAppDelegate
 

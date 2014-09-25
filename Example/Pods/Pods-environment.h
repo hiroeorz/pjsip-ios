@@ -1,0 +1,134 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// pjsip-ios
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios 1
+
+// pjsip-ios/pjlib
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjlib
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjlib 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjlib 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjlib 1
+
+// pjsip-ios/pjlib-util
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjlib_util
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjlib_util 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjlib_util 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjlib_util 1
+
+// pjsip-ios/pjlib-util/pjlib-util
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjlib_util_pjlib_util
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjlib_util_pjlib_util 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjlib_util_pjlib_util 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjlib_util_pjlib_util 1
+
+// pjsip-ios/pjlib/pj
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjlib_pj
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjlib_pj 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjlib_pj 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjlib_pj 1
+
+// pjsip-ios/pjlib/pj++
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjlib_pj__
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjlib_pj__ 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjlib_pj__ 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjlib_pj__ 1
+
+// pjsip-ios/pjlib/pj/compat
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjlib_pj_compat
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjlib_pj_compat 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjlib_pj_compat 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjlib_pj_compat 1
+
+// pjsip-ios/pjmedia
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjmedia
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjmedia 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjmedia 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjmedia 1
+
+// pjsip-ios/pjmedia/pjmedia
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjmedia_pjmedia
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjmedia_pjmedia 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjmedia_pjmedia 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjmedia_pjmedia 1
+
+// pjsip-ios/pjmedia/pjmedia-audiodev
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjmedia_pjmedia_audiodev
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjmedia_pjmedia_audiodev 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjmedia_pjmedia_audiodev 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjmedia_pjmedia_audiodev 1
+
+// pjsip-ios/pjmedia/pjmedia-codec
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjmedia_pjmedia_codec
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjmedia_pjmedia_codec 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjmedia_pjmedia_codec 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjmedia_pjmedia_codec 1
+
+// pjsip-ios/pjmedia/pjmedia-videodev
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjmedia_pjmedia_videodev
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjmedia_pjmedia_videodev 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjmedia_pjmedia_videodev 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjmedia_pjmedia_videodev 1
+
+// pjsip-ios/pjnath
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjnath
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjnath 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjnath 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjnath 1
+
+// pjsip-ios/pjnath/pjnath
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjnath_pjnath
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjnath_pjnath 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjnath_pjnath 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjnath_pjnath 1
+
+// pjsip-ios/pjsip
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsip
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsip 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsip 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsip 1
+
+// pjsip-ios/pjsip/pjsip
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsip_pjsip
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsip_pjsip 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsip_pjsip 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsip_pjsip 1
+
+// pjsip-ios/pjsip/pjsip-simple
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsip_pjsip_simple
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsip_pjsip_simple 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsip_pjsip_simple 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsip_pjsip_simple 1
+
+// pjsip-ios/pjsip/pjsip-ua
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsip_pjsip_ua
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsip_pjsip_ua 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsip_pjsip_ua 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsip_pjsip_ua 1
+
+// pjsip-ios/pjsip/pjsua-lib
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsip_pjsua_lib
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsip_pjsua_lib 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsip_pjsua_lib 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsip_pjsua_lib 1
+
+// pjsip-ios/pjsip/pjsua2
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsip_pjsua2
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsip_pjsua2 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsip_pjsua2 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsip_pjsua2 1
+
+// pjsip-ios/third_party
+#define COCOAPODS_POD_AVAILABLE_pjsip_ios_third_party
+#define COCOAPODS_VERSION_MAJOR_pjsip_ios_third_party 0
+#define COCOAPODS_VERSION_MINOR_pjsip_ios_third_party 1
+#define COCOAPODS_VERSION_PATCH_pjsip_ios_third_party 1
+
