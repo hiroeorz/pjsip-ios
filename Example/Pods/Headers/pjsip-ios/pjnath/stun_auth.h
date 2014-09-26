@@ -1,1 +1,1 @@
-../../../../../Pod/pjnath/include/pjnath/stun_auth.h
+../../../../../Pod/Headers/pjnath/stun_auth.h

@@ -1,1 +1,1 @@
-../../../../../Pod/pjsip/include/pjsip/sip_resolve.h
+../../../../../Pod/Headers/pjsip/sip_resolve.h

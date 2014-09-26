@@ -1,1 +1,1 @@
-../../../../../../Pod/pjlib/include/pj/compat/os_symbian.h
+../../../../../../Pod/Headers/pj/compat/os_symbian.h

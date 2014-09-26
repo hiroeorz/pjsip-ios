@@ -1,1 +1,1 @@
-../../../../../Pod/pjnath/include/pjnath/nat_detect.h
+../../../../../Pod/Headers/pjnath/nat_detect.h

@@ -1,1 +1,1 @@
-../../../../../Pod/pjsip/include/pjsip-simple/publish.h
+../../../../../Pod/Headers/pjsip-simple/publish.h

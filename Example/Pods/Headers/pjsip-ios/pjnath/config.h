@@ -1,1 +1,1 @@
-../../../../../Pod/pjnath/include/pjnath/config.h
+../../../../../Pod/Headers/pjnath/config.h

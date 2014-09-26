@@ -1,1 +1,1 @@
-../../../../../../Pod/pjlib/include/pj/compat/os_palmos.h
+../../../../../../Pod/Headers/pj/compat/os_palmos.h
