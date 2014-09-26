@@ -2,17 +2,15 @@
 //  main.m
 //  pjsip-ios
 //
-//  Created by Pierre-Marc Airoldi on 09/02/2014.
-//  Copyright (c) 2014 Pierre-Marc Airoldi. All rights reserved.
+//  Created by Pierre-Marc Airoldi on 2014-09-26.
+//  Copyright (c) 2014 Mobila Canada Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-#import "PMAppDelegate.h"
-
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PMAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

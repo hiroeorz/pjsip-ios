@@ -1,1 +1,0 @@
-../../../../../../Pod/pjnath/include/pjnath/nat_detect.h

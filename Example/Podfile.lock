@@ -1,60 +1,42 @@
 PODS:
-  - Expecta (0.3.1)
   - pjsip-ios (0.1.1):
-    - pjsip-ios/pjlib
+    - pjsip-ios/pj
+    - pjsip-ios/pj++
     - pjsip-ios/pjlib-util
     - pjsip-ios/pjmedia
+    - pjsip-ios/pjmedia-audiodev
+    - pjsip-ios/pjmedia-codec
+    - pjsip-ios/pjmedia-videodev
     - pjsip-ios/pjnath
     - pjsip-ios/pjsip
-    - pjsip-ios/third_party
-  - pjsip-ios/pjlib (0.1.1):
-    - pjsip-ios/pjlib/pj
-    - pjsip-ios/pjlib/pj++
-  - pjsip-ios/pjlib-util (0.1.1):
-    - pjsip-ios/pjlib-util/pjlib-util
-  - pjsip-ios/pjlib-util/pjlib-util (0.1.1)
-  - pjsip-ios/pjlib/pj (0.1.1):
-    - pjsip-ios/pjlib/pj/compat
-  - pjsip-ios/pjlib/pj++ (0.1.1)
-  - pjsip-ios/pjlib/pj/compat (0.1.1)
-  - pjsip-ios/pjmedia (0.1.1):
-    - pjsip-ios/pjmedia/pjmedia
-    - pjsip-ios/pjmedia/pjmedia-audiodev
-    - pjsip-ios/pjmedia/pjmedia-codec
-    - pjsip-ios/pjmedia/pjmedia-videodev
-  - pjsip-ios/pjmedia/pjmedia (0.1.1)
-  - pjsip-ios/pjmedia/pjmedia-audiodev (0.1.1)
-  - pjsip-ios/pjmedia/pjmedia-codec (0.1.1)
-  - pjsip-ios/pjmedia/pjmedia-videodev (0.1.1)
-  - pjsip-ios/pjnath (0.1.1):
-    - pjsip-ios/pjnath/pjnath
-  - pjsip-ios/pjnath/pjnath (0.1.1)
-  - pjsip-ios/pjsip (0.1.1):
-    - pjsip-ios/pjsip/pjsip
-    - pjsip-ios/pjsip/pjsip-simple
-    - pjsip-ios/pjsip/pjsip-ua
-    - pjsip-ios/pjsip/pjsua-lib
-    - pjsip-ios/pjsip/pjsua2
-  - pjsip-ios/pjsip/pjsip (0.1.1)
-  - pjsip-ios/pjsip/pjsip-simple (0.1.1)
-  - pjsip-ios/pjsip/pjsip-ua (0.1.1)
-  - pjsip-ios/pjsip/pjsua-lib (0.1.1)
-  - pjsip-ios/pjsip/pjsua2 (0.1.1)
-  - pjsip-ios/third_party (0.1.1)
-  - Specta (0.2.1)
+    - pjsip-ios/pjsip-simple
+    - pjsip-ios/pjsip-ua
+    - pjsip-ios/pjsua-lib
+    - pjsip-ios/pjsua2
+  - pjsip-ios/pj (0.1.1):
+    - pjsip-ios/pj/compat
+  - pjsip-ios/pj++ (0.1.1)
+  - pjsip-ios/pj/compat (0.1.1)
+  - pjsip-ios/pjlib-util (0.1.1)
+  - pjsip-ios/pjmedia (0.1.1)
+  - pjsip-ios/pjmedia-audiodev (0.1.1)
+  - pjsip-ios/pjmedia-codec (0.1.1)
+  - pjsip-ios/pjmedia-videodev (0.1.1)
+  - pjsip-ios/pjnath (0.1.1)
+  - pjsip-ios/pjsip (0.1.1)
+  - pjsip-ios/pjsip-simple (0.1.1)
+  - pjsip-ios/pjsip-ua (0.1.1)
+  - pjsip-ios/pjsua-lib (0.1.1)
+  - pjsip-ios/pjsua2 (0.1.1)
 
 DEPENDENCIES:
-  - Expecta
   - pjsip-ios (from `../`)
-  - Specta (~> 0.2.1)
 
 EXTERNAL SOURCES:
   pjsip-ios:
     :path: ../
 
 SPEC CHECKSUMS:
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  pjsip-ios: f08d0e9c21dc18f2a0408c64ce3e2219666481dc
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  pjsip-ios: f9134798121783f17d254c0cd2b198e41e8486d6
 
 COCOAPODS: 0.33.1

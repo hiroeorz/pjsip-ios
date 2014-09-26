@@ -1,1 +1,0 @@
-../../../../../../Pod/pjnath/include/pjnath/stun_sock.h
