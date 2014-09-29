@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  Example
 //
-//  Created by Pierre-Marc Airoldi on 2014-09-26.
+//  Created by Pierre-Marc Airoldi on 2014-09-29.
 //  Copyright (c) 2014 Pete App Designs. All rights reserved.
 //
 
 #import "AppDelegate.h"
-//#import <pjsip-ios/pjsua.h>
+#import <pjsip-ios/pjsua.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self testSIP];
+
     return YES;
 }
 
@@ -43,5 +46,30 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-@end
+-(void)testSIP {
+    
+    pjsua_create();
+    
+    pjsua_config ua_cfg;
+    pjsua_logging_config log_cfg;
+    pjsua_media_config media_cfg;
+    
+    pjsua_config_default(&ua_cfg);
+    pjsua_logging_config_default(&log_cfg);
+    pjsua_media_config_default(&media_cfg);
+    
+    pjsua_init(&ua_cfg, &log_cfg, &media_cfg);
+    
+    pjsua_transport_config transportConfig;
+    
+    pjsua_transport_config_default(&transportConfig);
+    
+    transportConfig.port = 5060;
+    
+    pjsua_transport_create(PJSIP_TRANSPORT_UDP, &transportConfig, NULL);
+    pjsua_transport_create(PJSIP_TRANSPORT_TCP, &transportConfig, NULL);
+    
+    pjsua_start();
+}
 
+@end
