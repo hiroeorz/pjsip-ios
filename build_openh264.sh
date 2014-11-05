@@ -20,6 +20,6 @@ make OS=ios clean
 make OS=ios PREFIX=/tmp/openh264-ios
 make PREFIX=/tmp/openh264-ios install
 
-make OS=ios clean
+make OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64 clean
 make OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64
-make PREFIX=/tmp/openh264-ios-arm64 install
+make OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64 install
