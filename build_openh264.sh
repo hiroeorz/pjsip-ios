@@ -16,10 +16,12 @@ tar xvzf openh264.tar.gz
 
 cd openh264-1.0.0/
 
-make OS=ios clean
-make OS=ios PREFIX=/tmp/openh264-ios
-make PREFIX=/tmp/openh264-ios install
+OPTS="OS=ios PREFIX=/tmp/openh264-ios"
+make $OPTS clean
+make $OPTS
+make $OPTS install
 
-make OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64 clean
-make OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64
-make OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64 install
+OPTS="OS=ios ARCH=arm64 PREFIX=/tmp/openh264-ios-arm64"
+make $OPTS clean
+make $OPTS
+make $OPTS install
