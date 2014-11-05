@@ -6,3 +6,12 @@
 #
 # Pods/
 
+*~
+.gclient
+.gclient_entries
+build
+Example/Pods/Pods.xcodeproj/xcuserdata
+Example/Pods/Target Support Files
+Example/pjsip-ios.xcodeproj/xcuserdata
+Example/pjsip-ios.xcworkspace/xcuserdata
+Example/Pods/Headers/Public
