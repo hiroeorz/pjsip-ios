@@ -251,9 +251,9 @@ echo "Building for arm64..."
 make distclean #> /dev/null
 ARCH='-arch arm64' \
 $configure_ios_64 #> /dev/null
-make dep #> /dev/null
-make clean #> /dev/null
-make #> /dev/null 2>&1
+make dep > /dev/null
+make clean > /dev/null
+make > /dev/null 2>&1
 copy_libs arm64
 
 echo "Making universal lib..."
