@@ -61,6 +61,5 @@ GYP_DEFINES="OS=ios target_arch=armv7 target_subarch=64" GYP_CROSSCOMPILE=1 GYP_
 =. libyuv_test.gyp
 ninja -j7 -C out_ios/Debug-iphoneos libyuv_unittest
 ninja -j7 -C out_ios/Release-iphoneos libyuv_unittest
-mv out_ios_arm64 out_ios
 cp -a ../trunk /tmp/libyuv
 

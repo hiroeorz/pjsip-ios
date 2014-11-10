@@ -224,8 +224,8 @@ echo "#define PJ_CONFIG_IPHONE 1
 
 export CFLAGS="-Wno-unused-label -I/tmp/openh264-ios/include"
 #configure="./configure-iphone"
-configure_ios_32="./configure-iphone --with-libyuv=/tmp/libyuv32 --with-openh264=/tmp/openh264-ios"
-configure_ios_64="./configure-iphone --with-libyuv=/tmp/libyuv64 --with-openh264=/tmp/openh264-ios"
+configure_ios_32="./configure-iphone --with-libyuv=/tmp/libyuv --with-openh264=/tmp/openh264-ios"
+configure_ios_64="./configure-iphone --with-libyuv=/tmp/libyuv --with-openh264=/tmp/openh264-ios"
 
 cd ${PJSIP_DIR}
 
